@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Volkhov');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
 
 body{
   font-family: 'Volkhov', serif;
@@ -23,6 +24,8 @@ header {
   width: 100%;
   overflow: hidden;
 }
+
+
 
 header video {
   position: absolute;
@@ -55,8 +58,40 @@ header .overlay {
   z-index: 1;
 }
 
+p {
+    font-family: 'Questrial', sans-serif;
+}
+
+.card {
+    background-color:#ff7a47;
+    border-color:#ff7a47;
+    border: none;
+    border-radius: 0; 
+    
+
+}
+
+.card-new {
+    background-color:cyan;
+    border-color:cyan;
+    border: none;
+    border-radius: 0; 
+    
+}
+.card-body {
+    font-family: 'Questrial', sans-serif;
+}
+
 .bg-light {
     background-color: #1c1c1c !important;
+}
+
+.naranja {
+    background-color: #e8540b;
+}
+
+.btn-secondary {
+    background-color: #232323;
 }
 
 
